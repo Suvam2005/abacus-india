@@ -1,0 +1,114 @@
+.section-footer{
+    width: 100%;
+    padding-top: 10vh;
+    padding-bottom: 2vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 1.8vh;
+    background: var(--bs-yellow);
+}
+svg{
+    position: relative;
+    top: 2vh;
+}
+.section-footer h1{
+    color:#000;
+}
+.section-footer p{
+    font-size:16px;
+}
+.footer-links li{
+    margin-bottom:10px;
+}
+.footer-links a{
+    text-decoration:none;
+    color:var(--bs-black);
+    font-weight:500;
+    transition:0.3s ease;
+}
+.mt-10{
+    margin-top: 10vh !important;
+}
+.sip-para{
+   font-size:17px !important;
+   margin-top: -8px !important;
+}
+.contacts-sip-para{
+    font-size:17px !important; 
+    margin-top: -8px !important;
+}
+.opa-text{
+    opacity: 80%;
+    margin-top: -8px !important;
+}
+.mt-6{
+    margin-top: 6vh;
+}
+.iframe{
+    width: 95%;
+    height: 60vh;
+    margin-left: 6%;
+}
+.footer-links a:hover{
+    color:#444;
+}
+.footer-icon{
+    font-size:22px;
+    color:var(--bs-black);
+    transition:0.3s ease;
+}
+.footer-icon:hover{
+    transform:scale(1.2);
+}
+.left-side i{
+    font-size: 22px !important;
+    opacity: 60%;
+}
+.gap-6-custom{
+    margin-left: 6%;
+}
+.main-text{
+    font-size: 20px !important;
+    width: 30vw !important;
+}
+.section-footer h3 {
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 70%;
+}
+.section-footer .footer-cred a {
+    color: var(--bs-black);
+    font-size: 15px;
+    text-decoration: none;
+    opacity: 70%;
+}
+.mt-8{
+    margin-top: 8vh !important;
+}
+.footer-icon i{
+    opacity: 60%;
+    text-decoration: none !important;
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .main-text{
+        width: 60vw !important;
+    }
+    .iframe{
+        margin-left: -0.8% !important;
+    }
+}
+@media (max-width: 767px) {
+    .main-text{
+        width: 85vw !important;
+    }
+    .section-footer{
+        margin-top: 15vh;
+    }
+    svg{
+        position: relative;
+        top: 15.1vh;
+    }
+    .gap-6-custom{
+        margin-left: 0;
+    }
+}

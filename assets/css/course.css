@@ -1,0 +1,286 @@
+@media (min-width: 768px) and (max-width: 991px) {
+    .testimonial__area__2 {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
+.container {
+    padding-right: var(--bs-gutter-x, 0.9375rem)
+.9375rem
+;
+    padding-left:  0.9375rem;
+    --bs-gutter-x: .9375rem;
+}
+@media (min-width: 768px) {
+    .container, .container-md, .container-sm {
+        max-width: 720px;
+    }
+}
+@media (min-width: 576px) {
+    .container, .container-sm {
+        max-width: 540px;
+    }
+}
+.testimonial__area__2 .row {
+    margin-right: -30px;
+    margin-left: -30px;
+}
+
+.row {
+    --bs-gutter-x: 1.875rem;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+.custom__review__grid {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+@media (min-width: 768px) {
+    .col-md-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+.aboutarea__3 {
+    background: var(--bs-gray-100);
+    position: relative;
+    padding-left: 7%;
+}
+@media (min-width: 576px) {
+    .col-sm-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+.sp_bottom_90 {
+    padding-bottom: 90px;
+}
+.sp_top_120 {
+    padding-top: 120px;
+}
+.aboutarea__3__section__title {
+    margin-bottom: 20px;
+}
+.section__title {
+    margin-bottom: 40px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .section__title .section__title__heading h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+}
+.section__title .section__title__heading h2 {
+    font-size: 42px;
+    line-height: 54px;
+    margin-bottom: 0;
+}
+.aboutarea__3 .aboutarea__img__3 .aboutarea__3__img__1 {
+  position: absolute;
+  top: 50px;
+  left: 216px;
+  animation: 3s linear 0s infinite alternate none running dot-anim-2;
+}
+.aboutarea__3 .aboutarea__img__3 .aboutarea__3__img__2 {
+  position: absolute;
+  top: 260px;
+  left: 118px;
+  animation: cir-anim 6s linear 0s infinite alternate;
+}
+@media (min-width: 992px) and (max-width: 1365px) {
+  .aboutarea__3 .aboutarea__img__3 .aboutarea__3__img__2 {
+    left: 318px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .aboutarea__3 .aboutarea__img__3 .aboutarea__3__img__2 {
+    left: 262px;
+  }
+}
+.aboutarea__3 .aboutarea__img__3 .aboutarea__3__img__3 {
+  position: absolute;
+  top: 320px;
+  left: 110px;
+  animation: 3s linear 0s infinite alternate none running dot-anim;
+}
+@media (min-width: 992px) and (max-width: 1365px) {
+  .aboutarea__3 .aboutarea__img__3 .aboutarea__3__img__3 {
+    top: 433px;
+    left: 196px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .aboutarea__3 .aboutarea__img__3 .aboutarea__3__img__3 {
+    top: 630px;
+    left: 476px;
+  }
+}
+
+.aboutarea__3__section__title {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .aboutarea__content__wraper__3 {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .aboutarea__content__wraper__3 {
+    margin-top: 50px;
+  }
+}
+
+.aboutarea__3__button {
+  margin-top: 45px;
+}
+@media (min-width: 992px) and (max-width: 1365px) {
+  .aboutarea__3__button {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .aboutarea__3__button {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .aboutarea__3__button {
+    margin-top: 20px;
+  }
+}
+.aboutarea__3__button a {
+  background: var(--bs-orange);
+  color: var(--bs-white);
+  border: 1px solid var(--bs-orange);
+}
+.aboutarea__3__button a:hover {
+  color: var(--bs-orange);
+  border: 1px solid var(--bs-orange);
+  background: var(--bs-white);
+}
+
+.aboutarea__para__3 {
+  background: var(--bs-white);
+  padding: 50px 25px;
+  position: relative;
+  width: 80%;
+}
+.aboutarea__para__3::after {
+  position: absolute;
+  left: 27px;
+  bottom: -14px;
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 15px solid var(--bs-white);
+  content: "";
+}
+.aboutarea__para__3 p {
+  margin-bottom: 0;
+}
+@media (min-width: 992px) and (max-width: 1365px) {
+  .aboutarea__para__3 p {
+    font-size: 14px;
+  }
+}
+.aboutarea__para__3 .aboutarea__icon__3 i {
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  text-align: center;
+  color: var(--bs-white);
+  background: var(--bs-orange);
+  display: inline-block;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  font-size: 30px;
+}
+@media (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .aboutarea__para__3 .aboutarea__icon__3 i {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    top: 0;
+    left: 0;
+  }
+}
+
+.aboutarea__img__3 {
+  margin-top: 22px;
+  display: flex;
+  align-items: center;
+}
+.aboutarea__img__3 .aboutarea__img__name {
+  margin-left: 80px;
+}
+@media (min-width: 992px) and (max-width: 1365px) {
+  .aboutarea__img__3 .aboutarea__img__name {
+    margin-left: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .aboutarea__img__3 .aboutarea__img__name {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .aboutarea__img__3 .aboutarea__img__name {
+    margin-left: 20px;
+  }
+}
+.aboutarea__img__3 .aboutarea__img__name h6 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 5px;
+}
+@media (min-width: 992px) and (max-width: 1365px) {
+  .aboutarea__img__3 .aboutarea__img__name h6 {
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
+.aboutarea__img__3 .aboutarea__img__name p {
+  line-height: 17px;
+  color: var(--lightGrey9);
+  margin-bottom: 0;
+}
+@media (min-width: 992px) and (max-width: 1365px) {
+  .aboutarea__img__3 .aboutarea__img__name p {
+    font-size: 15px;
+  }
+}
+.aboutarea__3__content p{
+    color: var(--bs-gray-600);
+    width: 90%;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.registerarea__form form .register__input {
+    height: 50px;
+    width: 100%;
+    border: none;
+    background: var(--bs-gray-100);
+    padding: 10px 15px;
+    font-size: 16px;
+    line-height: 54px;
+    margin-bottom: 25px;
+}

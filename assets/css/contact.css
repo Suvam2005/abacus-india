@@ -1,0 +1,236 @@
+.container-sm{
+    position: relative;
+}
+.container-sm img{
+    width: 99vw;
+    height: 48vh;
+}
+.mt-98{
+    margin-top: 98px;
+}
+.heading-4{
+    top: 20.5vh;
+    left: 10vw;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Roboto Slab", Sans-serif;
+    color: var(--bs-white);
+}
+/* .form-cont{
+    background: var(--bs-gray-200);
+    height: 70vh;
+    width: 60vw !important;
+    margin-right: 130px !important;
+    margin-left: -48px !important;
+} */
+.form-cont h3{
+    background: var(--bs-orange);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    color: var(--bs-white);
+}
+.form-name{
+    border-radius: 20px;
+    border: none;
+}
+.contact-wrapper{
+    min-height: 70vh;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.form-success{
+    width:500px;
+    height: 480px;
+    background: var(--bs-gray-200);
+    padding: 110px 40px;
+    text-align:center;
+    animation: fadeInUp 0.6s ease;
+}
+
+/* Check icon circle */
+.success-checkmark{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    background: var(--bs-green-200);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 auto 20px auto;
+    animation: pop 0.4s ease;
+}
+
+/* Check symbol */
+.check-icon{
+    color:var(--bs-white);
+    font-size:40px;
+    font-weight:bold;
+}
+
+/* Fade animation */
+@keyframes fadeInUp{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+/* Pop animation */
+@keyframes pop{
+    0%{
+        transform:scale(0);
+    }
+    80%{
+        transform:scale(1.1);
+    }
+    100%{
+        transform:scale(1);
+    }
+}
+
+/* Top Blue Bar */
+.form-header{
+    background: var(--bs-orange);
+    width: 432px;
+    text-align: center;
+    color: var(--bs-white);
+    padding: 12px;
+    font-weight: 500;
+    border-radius: 25px 25px 0 0;
+    margin-top: 50px;
+    margin-left: 43px;
+}
+.form-header h4{
+    font-size: 16px;
+}
+/* Form body */
+.form-body{
+    padding: 30px 40px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* Inputs */
+.form-body input,
+.form-body textarea{
+    border: none;
+    border-radius: 25px;
+    padding: 15px 20px;
+    background: var(--bs-gray-100);
+    font-size: 16px;
+    outline: none;
+}
+
+/* Textarea */
+.form-body textarea{
+    resize: none;
+}
+
+/* Button */
+.form-body button{
+    border: none;
+    padding: 15px;
+    border-radius: 25px;
+    background: var(--bs-orange);
+    color: var(--bs-white);
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-body button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.contact-section{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:80px;
+}
+
+/* Left image */
+.contact-image img{
+    width:500px;
+    height:530px;
+    object-fit:cover;
+}
+
+/* Right form */
+.contact-form-wrapper{
+    display:flex;
+    align-items:center;
+}
+
+/* Form */
+.contact-form{
+    width:520px;
+    height: 530px;
+    overflow:hidden;
+    background:var(--bs-gray-200);
+}
+/* Mobile Devices */
+@media (max-width: 768px){
+    .container-sm{
+        overflow-x: hidden;
+    }
+    .container-sm img{
+        min-width: 410vw !important;
+    }
+    /* Contact section layout */
+    .contact-section{
+        flex-direction: column;
+        margin-top: 30px;
+        padding: 0 20px;
+    }
+    #contact-section{
+        padding-top:20px !important;
+        padding-bottom:20px !important;
+        margin-bottom:20px !important;
+    }
+
+    /* Contact image */
+    .contact-image img{
+        display: none;
+    }
+
+    /* Form container */
+    .contact-form{
+        width:350px;
+        height:auto;
+        margin-top:20px;
+        border-radius: 25px;
+    }
+
+    /* Form header */
+    .form-header{
+        width:100%;
+        margin:0;
+        border-radius:20px 20px 0 0;
+    }
+
+    /* Form body */
+    .form-body{
+        padding:25px;
+        gap:20px;
+    }
+
+    /* Inputs */
+    .form-body input,
+    .form-body textarea{
+        width:100%;
+    }
+
+    /* Success box */
+    .form-success{
+        width:100%;
+        height:auto;
+        padding:60px 30px;
+    }
+}

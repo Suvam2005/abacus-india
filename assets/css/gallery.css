@@ -1,0 +1,51 @@
+.container-sm{
+    position: relative;
+}
+.banner-common{
+    max-width: 99vw;
+    height: 48vh;
+}
+.mt-98{
+    margin-top: 98px;
+}
+.heading-4{
+    top: 20.5vh;
+    left: 10vw;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Roboto Slab", Sans-serif;
+    color: var(--bs-white);
+}
+.card{
+    overflow: hidden;
+}
+.img-card{
+    height: 250px !important;
+    object-fit: cover !important;
+}
+@media (max-width: 768px){
+
+    .container-sm{
+        overflow-x: hidden;
+    }
+
+    /* Banner */
+    .banner-common{
+        min-width: 400vw !important;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+
+    .container-sm{
+        max-width:100% !important;
+        padding:0 !important;
+        margin-top: 11vh;
+    }
+
+    .banner-common{
+        width:100vw;
+        max-width:100%;
+        height:42vh;
+        object-fit:cover;
+    }
+}

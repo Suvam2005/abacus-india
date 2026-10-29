@@ -1,0 +1,122 @@
+.sp_bottom_70 {
+    padding-bottom: 70px;
+}
+.sp_top_100 {
+    padding-top: 130px;
+}
+.blogarea__content__wraper {
+    box-shadow: 0px 3px 40px rgba(14, 37, 49, 0.078);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.blogarea__content__wraper .blogarea__img {
+    position: relative;
+    overflow: hidden;
+}
+.blogarea__content__wraper .blogarea__img img {
+    width: 100%;
+    transition: all .3s ease-out 0s;
+}
+.blogarea__content__wraper:hover .blogarea__img img{
+    transform: scale(1.05);
+}
+.blogarea__content__wraper .blogarea__img .blogarea__date {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: var(--bs-yellow);
+    display: inline-block;
+    text-align: center;
+    font-weight: 600;
+    line-height: 36px;
+    color: var(--bs-white);
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    padding: 8px 24px;
+}
+.blogarea__content__wraper .blogarea__img .blogarea__date span {
+    display: block;
+}
+.blogarea__content__wraper .blogarea__text__wraper {
+    padding: 40px 35px 35px 35px;
+}
+.blogarea__content__wraper .blogarea__text__wraper h3 a {
+    color: var(--bs-black);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    transition: .3s;
+}
+.blogarea__content__wraper .blogarea__text__wraper .blogarea__para p {
+    line-height: 29px;
+    color: var(--bs-gray-600);
+}
+.blogarea__content__wraper .blogarea__text__wraper .blogarea__icon .blogarea__person {
+    display: flex;
+    align-items: center;
+}
+.blogarea__content__wraper .blogarea__text__wraper .blogarea__icon .blogarea__person .blogarea__img img {
+    width: 100%;
+}
+.blogarea__content__wraper .blogarea__text__wraper .blogarea__icon .blogarea__person .blogarea__name {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: var(--bs-black);
+}
+.blogarea__content__wraper .blogarea__text__wraper .blogarea__icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.blogarea__content__wraper .blogarea__text__wraper .blogarea__icon .blogarea__person .blogarea__img {
+    width: 44px;
+    height: 44px;
+    margin-right: 12px;
+}
+.blogarea__content__wraper .blogarea__img {
+    position: relative;
+    overflow: hidden;
+}
+.blogarea__content__wraper .blogarea__text__wraper .blogarea__icon .blogarea__person .blogarea__img img {
+    width: 100%;
+}
+.blogarea__content__wraper .blogarea__text__wraper .blogarea__icon .blogarea__person .blogarea__name {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: var(--bs-black);
+}
+.blogarea__content__wraper .blogarea__text__wraper .blogarea__icon .blogarea__person .blogarea__name span {
+    color: var(--darkdeep5);
+}
+.blogarea__content__wraper .blogarea__text__wraper h3 a:hover{
+    color: var(--bs-orange);
+}
+.blogarea__content__wraper .blogarea__img .blogarea__date.small__date {
+    line-height: 30px;
+    font-size: 24px;
+    padding: 7px 22px;
+}
+.blogarea__content__wraper .blogarea__text__wraper.blogarea__text__wraper__2 {
+    padding: 25px 20px;
+}
+.blogarea__content__wraper .blogarea__text__wraper.blogarea__text__wraper__2 h3 a{
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+.blogarea__content__wraper {
+    box-shadow: 0px 3px 40px rgba(14, 37, 49, 0.078);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.blogarea__content__wraper .blogarea__img .blogarea__date span {
+    display: block;
+}
+.heading-blog{
+    margin-left: 8%;
+}
